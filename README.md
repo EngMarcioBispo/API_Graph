@@ -1,4 +1,4 @@
-# Desafio Dev Jr/Pl
+# Desafio Dev
 
 Bem vindo(a)! Esse desafio tem como objetivo avaliar a capacidade do candidato de construir uma API seguindo as melhores práticas e padrões de desenvolvimento.
 
@@ -12,29 +12,6 @@ O candidato que utilizar Python com a biblioteca [FastAPI](https://fastapi.tiang
 
 Uma empresa de transporte de carga e pessoal faz algumas rotas de entrega em um grupo de cidades locais. Dada uma simplificação do modelo, todas as rotas entre essas cidades são unidirecionais. Essa empresa deseja portanto conhecer as melhores rotas entre algumas cidades e suas devidas distâncias com o intuito de definir a melhor logística de trabalho. Para isso você foi contratado com o intuito de prover endpoints REST de algumas funcionalidades comuns.
 
-## Entregáveis
-
-- API.
-- Dockerfile da API.
-- Docker-compose com todos os serviços necessários.
-- Testes unitários
-- Testes de integração.
-- Documentação.
-
-## Avaliação
-
-Você será avaliado nos seguintes aspectos, em ordem de prioridade:
-
-1. Performance e correta execução da especificação funcional
-2. Legibilidade de código e consistência de nomenclaturas
-3. Modelagem e OO (Orientação à Objetos)
-4. Testes
-5. Documentação
-6. Completar todas funcionalidades
-
-Observe que neste projeto é mais importante que você entregue um código de qualidade do que todas as funcionalidades exigidas. Seu código será avaliado independente da entrega total de funcionalidades.
-
-É esperado que você desenvolva sem ajuda ou intervenção direta de terceiros, mas encorajamos que você pesquise por soluções e boas práticas sem nenhum tipo de restrição, apenas lembre-se que serão realizadas perguntas na entrevista a fim de certificar seu conhecimento total sobre a implementação. **Jogue limpo!**
 
 ## API
 
@@ -326,17 +303,3 @@ Utilizando um grafo salvo anteriormente, esse endpoint deverá determinar a rota
   "path" : ["A", "B", "C"]
 }​
 ```
-
-### Funcionalidades Bônus:
-
-- É necessária uma ferramenta para migração de esquema de banco de dados.
-- A empresa foi adquirida por um grande conglomerado e a API deverá atender um alto número de requisições por segundo.
-- Precisamos de uma página web que implemente as funcionalidades.
-
-Como você atenderia os novos requisitos? Descreva o que podemos e/ou implemente, se possível.
-
-## Considerações
-
-- Você deverá criar um fork privado do projeto e compartilhar conosco. Por favor, **não** abra um merge request público.
-- O desafio deverá ser entregue em até uma semana. Se você não conseguir fazer tudo, não deixe de entregar. Se você empacar em alguma parte, nos procure e explique o que está acontecendo.
-- Faça commits atômicos e semânticos.
