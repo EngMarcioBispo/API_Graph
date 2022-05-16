@@ -1,0 +1,19 @@
+{
+    "dependencies": {
+        "express": "^4.18.0",
+        "graph.js": "^1.21.1"
+    },
+    "name": "desafio_milenio",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon ./src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
